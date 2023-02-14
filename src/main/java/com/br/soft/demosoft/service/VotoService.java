@@ -54,7 +54,7 @@ public class VotoService {
         return client.verificaCpf(cpf)
                 .get()
                 .getStatus()
-                .equals("SIM");
+                .equals("ABLE_TO_VOTE");
     }
 
     public boolean votacaoDentroDoHorario(LocalDateTime data) {
