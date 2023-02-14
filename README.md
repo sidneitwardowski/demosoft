@@ -17,7 +17,7 @@ mvn spring-boot:run
 [Api docs](http://localhost:8080/swagger)
 
 
-## DOCKER - Running build and run container
+## DOCKER -  run container
 
 
 ```docker
