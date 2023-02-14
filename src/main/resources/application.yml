@@ -1,0 +1,14 @@
+
+springdoc:
+  swagger-ui:
+    path: "swagger"
+demosoft:
+  url-consulta-cpf: "https://user-info.herokuapp.com/users/"
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:jedai345@localhost:27017
+      database: demo
+server:
+  error:
+    include-stacktrace: never
